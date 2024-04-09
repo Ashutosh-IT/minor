@@ -25,7 +25,7 @@ function App() {
 
     return <VStack
     overflow={"hidden"}
-     bg="black" position={"relative"} // bgImage={women}     bgSize={"80%"} 
+     bg="black" position={"relative"}
       minH="100vh"  justify="center" align="center" > 
            <Image zIndex={999} width={{base:"200px", md:"400px"}} className="slide-in-blurred-top" src={logo} />
            <Image position={"absolute"} minW={{base:"800px", md:"none"}} h="100%" src={women} />
@@ -36,7 +36,6 @@ function App() {
 
   return (
     <Box >
-
       <Navbar/>
       <AllRoutes/>
       <Footer/>

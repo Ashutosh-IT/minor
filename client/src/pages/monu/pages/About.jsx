@@ -10,48 +10,35 @@ import {
   } from '@chakra-ui/react';
 import Card from '../components/Card';
 
+import ashu from "../assets/ashu.png"
+
 
 
 import ProfileCard from '../components/ProfileCard';
-let first=[{
-  image:"https://i.ibb.co/9tT8KtB/sufi-black.png",
-  desc:"Problem Solver",
-  title:"suFiyan Shaikh",
-  portfolio:"https://sufi.vercel.app/",
-  github:"https://github.com/suFi7867",
-  linkedin:"https://www.linkedin.com/in/sufiyan-shaikh-9bb808183/"
-},
+let first=[
 {
-  linkedin:"https://www.linkedin.com/in/nayan-kumar-/",
-  github:"https://github.com/NAYANKUMAR21",
-  title:"Nayan Kumar",
-  desc:"Backend Expert",
-  portfolio:"https://nayankumar21.github.io/",
-  image:"https://avatars.githubusercontent.com/u/99751552?v=4"   
+  linkedin:"https://www.linkedin.com/in/ashutoshkumar-it/",
+  github:"https://github.com/Ashutosh-IT",
+  title:"Ashutosh Kumar",
+  desc:"Backend Developer",
+  portfolio:"https://github.com/Ashutosh-IT",
+  image:"https://i.ibb.co/NWpcV49/ashu.png"  
 },
   {
-    image:"https://i.ibb.co/52YF6Sg/green-Monu.png",
-    desc:"UI Expert",
-    title:"Monu Yadav",
-    portfolio:"https://monumarquis.github.io/",
-    github:"https://github.com/monumarquis",
-    linkedin:"https://www.linkedin.com/in/monu-yadav-2003m/"
+    image:"https://i.ibb.co/nbqxNBb/shivam.jpg",
+    desc:"Frontend Developer",
+    title:"Shivam Kumar",
+    portfolio:"https://github.com/ShivamKumaar01",
+    github:"https://github.com/ShivamKumaar01",
+    linkedin:"https://www.linkedin.com/in/shivam-kumaar01/"
   },
   {
-    image:"https://avatars.githubusercontent.com/u/107467585?v=4",
-    desc:"Team PLayer",
-    title:"Sudarshan P",
-    portfolio:"https://sudarshan441.github.io/",
-    github:"https://github.com/sudarshan441",
-    linkedin:"https://www.linkedin.com/in/sudarshan-pujari/"
-  },
-  {
-    image:"https://avatars.githubusercontent.com/u/105938098?v=4",
-    title:"Krishna Aluri",
-    desc:"Full Stack",
+    image:"https://media.licdn.com/dms/image/D5603AQHntgG-cL0J2w/profile-displayphoto-shrink_800_800/0/1710643400739?e=1718236800&v=beta&t=zw3nahlKEhbe3_BKnhnyP_4P93c8nlyOGZfIQlNEk8I",
+    title:"Shivshant P",
+    desc:"Frontend",
     portfolio:"https://641krishna.github.io/",
-    github:"https://github.com/641krishna",
-    linkedin:"https://www.linkedin.com/feed/"
+    github:"https://github.com/shivashanti",
+    linkedin:"https://www.linkedin.com/in/shivshant-prasad21351126198/"
   },
 
 ]

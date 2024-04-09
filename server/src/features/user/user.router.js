@@ -34,8 +34,7 @@ app.get("/", async (req, res) => {
 app.get("/:email", async (req, res) => {
 
   console.log(req.params.email)
-
-  if(req.params.email ){
+  if(req.params.email){
     let data = await UserModel.findOne({email:req.params.email});
     return res.status(200).send(data);
   }
@@ -62,7 +61,6 @@ app.post("/login", async (req, res) => {
 
   try {
     const match = bcrypt.compareSync(password, User.password);
-   console.log(match)
     if (match) {
       //login
       const token = jwt.sign(
@@ -73,7 +71,7 @@ app.post("/login", async (req, res) => {
           email:User.email,
           password: User.password,
         },
-        SECRET_TOKEN,
+        
         {
           expiresIn: "7 days",
         }
@@ -86,13 +84,13 @@ app.post("/login", async (req, res) => {
           email:User.email,
           password: User.password,
         },
-        SECRET_REFRESH_TOKEN,
+        "op",
         {
           expiresIn: "28 days",
         }
       );
       const mailOptions = {
-        from: process.env.EMAIL,
+        from: "kashu19march@gmail.com",
         to: email,
         subject: `Login Successfull`,
         html: `<h1>your ACcount Login Successfull  </h1>`,
